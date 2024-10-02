@@ -1,4 +1,4 @@
-- name: variables to print #space after colon is mandatory  
+- name: variables to print  
   hosts: web
   vars: #play level, all tasks in this play have access to this
     COURSE: "DevOps with AWS"
@@ -14,7 +14,7 @@
   - name: print the information again
     vars: #Task level variables
       Course: "Ansible"
-    Duration: "Two Weeks"
+      Duration: "Two Weeks"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer: {{TRAINER}}, Student: {{Student}}"
   
