@@ -17,7 +17,7 @@
       DURATION: "Two Weeks"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer: {{TRAINER}}, Student: {{Student}}"
-  
+    
   tasks: # this will take main variables
   - name: print the information again and again
     ansible.builtin.debug:
