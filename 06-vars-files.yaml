@@ -5,4 +5,4 @@
   tasks:
   - name: print the course information
     ansible.builtin.debug:
-      msg: "Hi , I am learning {{Devops with AWS}}, Duration is {{DURATION}}, Trainer is {{TRAINER}}, Stident is{{Student}}"
+      msg: "Hi , I am learning {{Devops with AWS}}, Duration is {{DURATION}}, Trainer is {{TRAINER}}"
