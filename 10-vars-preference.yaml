@@ -23,7 +23,7 @@
     vars:
       COURSE: "DevOps with AWS from Task level"
       DURATION: "120HRS"
-      TRAINER: "Sivakumar Reddy "
+      TRAINER: "Sivakumar Reddy"
       Student: "Venkatesulu"
-      ansibale.builtin.debug:
-        msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, TRAINER is: {{TRAINER}}, Student is{{STUDENT}}"
+    ansibale.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, TRAINER is: {{TRAINER}}, Student is{{STUDENT}}"
