@@ -10,5 +10,6 @@
   - name: STUDENT
     prompt: Please enter the student name
   tasks:
+  - name: Print the course information
   ansible.builtin.debug:
     msg: "Hi, I am learning {{COURSE}}, Trainer: {{TRAINER}}, duration of the course: {{DURATION}}, Student name: {{STUDENT}}"
