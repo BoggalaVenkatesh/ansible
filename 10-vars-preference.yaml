@@ -19,11 +19,11 @@
     prompt: Please enter the student name
     private: false # not confidential
   tasks:
-  - name: print the information
+    - name: print the information
     vars:
       COURSE: "DevOps with AWS from Task level"
       DURATION: "120HRS"
       TRAINER: "Sivakumar Reddy "
       Student: "Venkatesulu"
       ansibale.builtin.debug:
-      msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, TRAINER is: {{TRAINER}}, Student is{{STUDENT}}"
+        msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, TRAINER is: {{TRAINER}}, Student is{{STUDENT}}"
