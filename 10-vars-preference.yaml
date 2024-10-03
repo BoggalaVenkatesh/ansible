@@ -25,5 +25,5 @@
       DURATION: "120HRS"
       TRAINER: "Sivakumar Reddy"
       Student: "Venkatesulu"
-    ansibale.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, TRAINER is: {{TRAINER}}, Student is{{STUDENT}}"
