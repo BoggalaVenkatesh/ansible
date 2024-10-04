@@ -5,7 +5,9 @@
     DURATION: "120HRS"
     TRAINER: "Sivakumar Reddy "
     Student: "Venkatesulu"
-  vars_prompt:
+  vars_files:   #it is taken from anoter yaml file 
+  - vars.yaml
+  vars_prompt:   # this syntex for prompting 
   - name: COURSE
     prompt: Please enter the course name
     private: false # not confidential
