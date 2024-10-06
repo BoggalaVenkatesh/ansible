@@ -13,3 +13,4 @@
 
     -name: creat user
       ansible.builtin.command: userdd expense
+      when : USER.rc != 0
