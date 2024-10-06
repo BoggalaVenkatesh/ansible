@@ -1,0 +1,10 @@
+- name: create user
+  hosts: web
+  become: yes
+  tasks:
+    - name: check the user is exist or not
+      ansiable.biultin.command:
+      register: USER
+      ignore_errors: true
+
+    - name: 
