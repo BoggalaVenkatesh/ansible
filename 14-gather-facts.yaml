@@ -1,0 +1,6 @@
+- name: gathering facts
+  hosts: web
+  become: yes
+  task:
+  - name: print the facts 
+    ansible.builtin.debug:
