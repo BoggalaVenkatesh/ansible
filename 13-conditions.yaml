@@ -10,4 +10,6 @@
     - name: print the user information
       ansible.builtin.debug:
         msg: "user info:{{ user }}"
-        
+
+    -name: creat user
+      ansible.builtin.command: userdd expense
