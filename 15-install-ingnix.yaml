@@ -1,0 +1,6 @@
+- name: install inginx
+  become: yes
+  hosts: web
+  tasks:
+    - name: print the stats
+      ansible.builtin.debug:
