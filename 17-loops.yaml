@@ -2,9 +2,10 @@
   hosts: local
   Connection: local
   tasks:
-  - name: print names
-    ansiable:builtin.debug:
-      msg:  "Hello {{ iteam }} "
+  - name: install packages
+    ansiable:builtin.package:
+      name:  " {{ iteam }} "
+      state: present
     loops:
     - mysql
     - nginx
