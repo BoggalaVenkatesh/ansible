@@ -5,3 +5,8 @@
   - name: print names
     ansiable:builtin.debug:
       msg:  "Hello {{ iteam }} "
+    loops:
+    - Ram
+    - ramesh
+    - sumit
+    - Guru
