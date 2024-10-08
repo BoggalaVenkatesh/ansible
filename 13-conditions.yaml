@@ -5,7 +5,7 @@
     - name: check the user is exist or not
       ansiable.biultin.command:
       register: USER
-      #ignore_errors: true
+      ignore_errors: true
 
     - name: print the user information
       ansible.builtin.debug:
