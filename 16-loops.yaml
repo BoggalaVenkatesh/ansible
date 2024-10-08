@@ -4,4 +4,4 @@
   tasks:
   - name: print names
     ansiable:builtin.debug:
-      msg:  "Hello {{ iteam }} ""
+      msg:  "Hello {{ iteam }} "
