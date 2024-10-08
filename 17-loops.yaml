@@ -1,0 +1,12 @@
+- name: loops demo
+  hosts: local
+  Connection: local
+  tasks:
+  - name: print names
+    ansiable:builtin.debug:
+      msg:  "Hello {{ iteam }} "
+    loops:
+    - mysql
+    - nginx
+    - postfix
+    - httpd
